@@ -144,12 +144,7 @@ jobs:
 
 ---
 
-## 🖼️ Screenshots
 
-### Home Page  
-
-
-### Mood Detection  &Food Recommendation
 
 
 
