@@ -1,4 +1,4 @@
-# 🧠 MoodBite.Ai (v3.0)
+# 🧠 MoodBite.Ai (v3.1)
 > **The Offline-First Sensory Food Interface**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://moodbiteai.vercel.app/)
@@ -7,7 +7,7 @@
 
 **MoodBite** is a sophisticated emotional regulation system that uses culinary intervention to balance human mood states. Unlike generic AI wrappers, it runs on a custom **Deterministic Emotional Vector Machine (EVM)**, allowing for high-precision, offline emotion detection and reasoning.
 
-🌐 **Live Demo:** [https://moodbiteai.vercel.app/](https://moodbiteai.vercel.app/)
+🌐 **Live Demo:** Coming Soon
 
 ---
 
@@ -144,5 +144,15 @@ jobs:
 
 ---
 
+## 🖼️ Screenshots
+
+### Home Page  
+
+
+### Mood Detection  &Food Recommendation
+
+
+
+
 ### © 2025 MoodBite Project
-Designed & Engineered by **[Ayush Singh](https://github.com/singhcod3r)**.
+Designed & Engineered by **[Ayush Singh & Lucky Tiwari ]**.
