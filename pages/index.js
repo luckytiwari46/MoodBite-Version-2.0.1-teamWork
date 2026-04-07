@@ -8,6 +8,7 @@ import ModernInputBar from '../components/ModernInputBar';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Camera from '../components/Camera';
+import WelcomePopup from '../components/WelcomePopup';
 import { analyzeTrajectory } from '../evm/trajectory';
 import { explainVector } from '../evm/fusion';
 
@@ -26,6 +27,7 @@ export default function HomePage() {
     const [isAnalyzingImage, setIsAnalyzingImage] = useState(false); // Image State
     const [isCameraOpen, setIsCameraOpen] = useState(false); // NEW Camera State
     const [errorMsg, setErrorMsg] = useState(null); // Error State
+    const [showWelcomePopup, setShowWelcomePopup] = useState(true); // Welcome Popup
 
     // Helper: Show Error & Auto-clear
     const showError = (msg) => {
@@ -231,6 +233,9 @@ export default function HomePage() {
         <div className="relative min-h-screen w-full overflow-y-auto font-sans text-white">
             <MoodBackground mood={predictedMood} />
             <Navbar />
+
+            {/* WELCOME POPUP */}
+            <WelcomePopup isOpen={showWelcomePopup} onClose={() => setShowWelcomePopup(false)} />
 
             {/* ERROR POPUP */}
             <AnimatePresence>
